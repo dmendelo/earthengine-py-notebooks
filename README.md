@@ -4,17 +4,18 @@
 
 A collection of **300+** Jupyter Python notebook examples for using Google Earth Engine with interactive mapping
 
-**Contact:** Qiusheng Wu (<https://wetlands.io>)
+**Contact:** Original Creator - Qiusheng Wu (<https://wetlands.io>)
 
 ## 1. Description
 
-This repository is a collection of **300+** Jupyter Python notebook examples. I developed these examples by converting my other repo [qgis-earthengine-examples](https://github.com/giswqs/qgis-earthengine-examples) from Python scripts to Jupyter notebooks. Now you can display Earth Engine data layers interactively in Jupyter notebooks without having to install [QGIS](https://www.qgis.org/). Three Python packages are being used in these examples, including the [Earth Engine Python API](https://developers.google.com/earth-engine/python_install), [folium](https://github.com/python-visualization/folium), and [geehydro](https://github.com/giswqs/geehydro). The **geehydro** Python package builds on the folium package and implements several methods for displaying Earth Engine data layers, such as `Map.addLayer()`, `Map.setCenter()`, `Map.centerObject()`, and `Map.setOptions()`.
+This repository is a collection of **300+** Jupyter Python notebook examples. I developed these examples by converting my other repo [qgis-earthengine-examples](https://github.com/dmendelo/qgis-earthengine-examples) from Python scripts to Jupyter notebooks. Now you can display Earth Engine data layers interactively in Jupyter notebooks without having to install [QGIS](https://www.qgis.org/). Three Python packages are being used in these examples, including the [Earth Engine Python API](https://developers.google.com/earth-engine/python_install), [folium](https://github.com/python-visualization/folium), and [geehydro](https://github.com/dmendelo/geehydro). The **geehydro** Python package builds on the folium package and implements several methods for displaying Earth Engine data layers, such as `Map.addLayer()`, `Map.setCenter()`, `Map.centerObject()`, and `Map.setOptions()`.
 
 ## 2. Usage
 
-* **Step 1:** Explore this repository and open any available Jupyter notebook in your browser (e.g., [template.ipynb](https://github.com/giswqs/earthengine-py-notebooks/blob/master/Template/template.ipynb))
-* **Step 2:** When the selected Jupyter notebook is open, click the [Notebook Viewer](https://nbviewer.jupyter.org/github/giswqs/earthengine-py-notebooks/blob/master/Template/template.ipynb) link to view the interactive map.
-* **Step 3:** If you would like to execute cells in the notebook interactively, you will need to [Sign up](https://earthengine.google.com/signup/) for a [Google Earth Engine](https://earthengine.google.com/) account. Then you can click either [Run in Google Colab](https://colab.research.google.com/github/giswqs/earthengine-py-notebooks/blob/master/Template/template.ipynb) or [Run in binder](https://mybinder.org/v2/gh/giswqs/earthengine-py-notebooks/master?filepath=Template/template.ipynb) to execute code interactively. This will allow you to add your own Earth Engine Python script.
+* **Step 1:** Explore this repository and open any available Jupyter notebook in your browser (e.g., [template.ipynb](https://github.com/dmendelo/earthengine-py-notebooks/blob/master/Template/template.ipynb))
+
+* **Step 2:** When the selected Jupyter notebook is open, click the [Notebook Viewer](https://nbviewer.jupyter.org/github/dmendelo/earthengine-py-notebooks/blob/master/Template/template.ipynb) link to view the interactive map.
+* **Step 3:** If you would like to execute cells in the notebook interactively, you will need to [Sign up](https://earthengine.google.com/signup/) for a [Google Earth Engine](https://earthengine.google.com/) account. Then you can click either [Run in Google Colab](https://colab.research.google.com/github/dmendelo/earthengine-py-notebooks/blob/master/Template/template.ipynb) or [Run in binder](https://mybinder.org/v2/gh/dmendelo/earthengine-py-notebooks/master?filepath=Template/template.ipynb) to execute code interactively. This will allow you to add your own Earth Engine Python script.
 
 ## 3. Demo
 
@@ -24,58 +25,58 @@ This repository is a collection of **300+** Jupyter Python notebook examples. I 
 
 The Table of Contents below mimics the structure of the Google Earth Engine [API Documentation](https://developers.google.com/earth-engine). I strongly encourage you to check out the API Documentation if you need an in-depth explanation of each Python example. Please note that the list below does not include all the Python examples contained in this repository. You are welcome to explore the repository and find more examples to suit your needs.
 
-### [Get Started](https://github.com/giswqs/earthengine-py-notebooks/tree/master/GetStarted)
+### [Get Started](https://github.com/dmendelo/earthengine-py-notebooks/tree/master/GetStarted)
 
-* [Hello world!](https://github.com/giswqs/earthengine-py-notebooks/blob/master/GetStarted/01_hello_world.ipynb)
-* [Adding data to Map](https://github.com/giswqs/earthengine-py-notebooks/blob/master/GetStarted/02_adding_data_to_qgis.ipynb)
-* [Finding images](https://github.com/giswqs/earthengine-py-notebooks/blob/master/GetStarted/03_finding_images.ipynb)
-* [Band math](https://github.com/giswqs/earthengine-py-notebooks/blob/master/GetStarted/04_band_math.ipynb)
-* [Mapping (what to do instead of a for-loop)](https://github.com/giswqs/earthengine-py-notebooks/blob/master/GetStarted/05_map_function.ipynb)
-* [Reducing](https://github.com/giswqs/earthengine-py-notebooks/blob/master/GetStarted/06_reducing.ipynb)
-* [Image statistics](https://github.com/giswqs/earthengine-py-notebooks/blob/master/GetStarted/07_image_statistics.ipynb)
-* [Masking](https://github.com/giswqs/earthengine-py-notebooks/blob/master/GetStarted/08_masking.ipynb)
-* [A complete example](https://github.com/giswqs/earthengine-py-notebooks/blob/master/GetStarted/09_a_complete_example.ipynb)
+* [Hello world!](https://github.com/dmendelo/earthengine-py-notebooks/blob/master/GetStarted/01_hello_world.ipynb)
+* [Adding data to Map](https://github.com/dmendelo/earthengine-py-notebooks/blob/master/GetStarted/02_adding_data_to_qgis.ipynb)
+* [Finding images](https://github.com/dmendelo/earthengine-py-notebooks/blob/master/GetStarted/03_finding_images.ipynb)
+* [Band math](https://github.com/dmendelo/earthengine-py-notebooks/blob/master/GetStarted/04_band_math.ipynb)
+* [Mapping (what to do instead of a for-loop)](https://github.com/dmendelo/earthengine-py-notebooks/blob/master/GetStarted/05_map_function.ipynb)
+* [Reducing](https://github.com/dmendelo/earthengine-py-notebooks/blob/master/GetStarted/06_reducing.ipynb)
+* [Image statistics](https://github.com/dmendelo/earthengine-py-notebooks/blob/master/GetStarted/07_image_statistics.ipynb)
+* [Masking](https://github.com/dmendelo/earthengine-py-notebooks/blob/master/GetStarted/08_masking.ipynb)
+* [A complete example](https://github.com/dmendelo/earthengine-py-notebooks/blob/master/GetStarted/09_a_complete_example.ipynb)
 
 ### [Machine Learning](https://github.com/giswqs/earthengine-py-notebooks/tree/master/MachineLearning)
 
 * Supervised Classification Algorithms
-  * [Classification and Regression Trees (CART)](https://github.com/giswqs/earthengine-py-notebooks/blob/master/MachineLearning/cart_classifier.ipynb) | [Support Vector Machine (SVM)](https://github.com/giswqs/earthengine-py-notebooks/blob/master/MachineLearning/svm_classifier.ipynb) | [Confusion Matrix](https://github.com/giswqs/earthengine-py-notebooks/blob/master/MachineLearning/confusion_matrix.ipynb)
+  * [Classification and Regression Trees (CART)](https://github.com/dmendelo/earthengine-py-notebooks/blob/master/MachineLearning/cart_classifier.ipynb) | [Support Vector Machine (SVM)](https://github.com/dmendelo/earthengine-py-notebooks/blob/master/MachineLearning/svm_classifier.ipynb) | [Confusion Matrix](https://github.com/dmendelo/earthengine-py-notebooks/blob/master/MachineLearning/confusion_matrix.ipynb)
 * Unsupervised Classification Algorithms
-  * [KMeans Clustering](https://github.com/giswqs/earthengine-py-notebooks/blob/master/MachineLearning/clustering.ipynb)
+  * [KMeans Clustering](https://github.com/dmendelo/earthengine-py-notebooks/blob/master/MachineLearning/clustering.ipynb)
 
-### [Image](https://github.com/giswqs/earthengine-py-notebooks/tree/master/Image)
+### [Image](https://github.com/dmendelo/earthengine-py-notebooks/tree/master/Image)
 
-* [Image Overview](https://github.com/giswqs/earthengine-py-notebooks/blob/master/Image/image_overview.ipynb)
-* [Image Visualization](https://github.com/giswqs/earthengine-py-notebooks/blob/master/Image/image_vis.ipynb)
-* [Image information and metadata](https://github.com/giswqs/earthengine-py-notebooks/blob/master/Image/image_metadata.ipynb)
-* [Mathematical operations](https://github.com/giswqs/earthengine-py-notebooks/blob/master/Image/band_math.ipynb)
-* [Relational, conditional and Boolean operations](https://github.com/giswqs/earthengine-py-notebooks/blob/master/Image/conditional_operations.ipynb)
-* [Convolutions](https://github.com/giswqs/earthengine-py-notebooks/blob/master/Image/convolutions.ipynb)
-* [Morphological Operations](https://github.com/giswqs/earthengine-py-notebooks/blob/master/Image/morphological_operations.ipynb)
-* [Gradients](https://github.com/giswqs/earthengine-py-notebooks/blob/master/Image/gradients.ipynb)
-* [Edge detection](https://github.com/giswqs/earthengine-py-notebooks/blob/master/Image/edge_detection.ipynb)
-* [Spectral transformations](https://github.com/giswqs/earthengine-py-notebooks/blob/master/Image/spectral_unmixing.ipynb)
-* [Texture](https://github.com/giswqs/earthengine-py-notebooks/blob/master/Image/texture.ipynb)
-* [Object-based methods](https://github.com/giswqs/earthengine-py-notebooks/blob/master/Image/object_based.ipynb)
-* [Cumulative Cost Mapping](https://github.com/giswqs/earthengine-py-notebooks/blob/master/Image/cumulative_cost_mapping.ipynb)
-* [Registering Images](https://github.com/giswqs/earthengine-py-notebooks/blob/master/Image/image_displacement.ipynb)
+* [Image Overview](https://github.com/dmendelo/earthengine-py-notebooks/blob/master/Image/image_overview.ipynb)
+* [Image Visualization](https://github.com/dmendelo/earthengine-py-notebooks/blob/master/Image/image_vis.ipynb)
+* [Image information and metadata](https://github.com/dmendelo/earthengine-py-notebooks/blob/master/Image/image_metadata.ipynb)
+* [Mathematical operations](https://github.com/dmendelo/earthengine-py-notebooks/blob/master/Image/band_math.ipynb)
+* [Relational, conditional and Boolean operations](https://github.com/dmendelo/earthengine-py-notebooks/blob/master/Image/conditional_operations.ipynb)
+* [Convolutions](https://github.com/dmendelo/earthengine-py-notebooks/blob/master/Image/convolutions.ipynb)
+* [Morphological Operations](https://github.com/dmendelo/earthengine-py-notebooks/blob/master/Image/morphological_operations.ipynb)
+* [Gradients](https://github.com/dmendelo/earthengine-py-notebooks/blob/master/Image/gradients.ipynb)
+* [Edge detection](https://github.com/dmendelo/earthengine-py-notebooks/blob/master/Image/edge_detection.ipynb)
+* [Spectral transformations](https://github.com/dmendelo/earthengine-py-notebooks/blob/master/Image/spectral_unmixing.ipynb)
+* [Texture](https://github.com/dmendelo/earthengine-py-notebooks/blob/master/Image/texture.ipynb)
+* [Object-based methods](https://github.com/dmendelo/earthengine-py-notebooks/blob/master/Image/object_based.ipynb)
+* [Cumulative Cost Mapping](https://github.com/dmendelo/earthengine-py-notebooks/blob/master/Image/cumulative_cost_mapping.ipynb)
+* [Registering Images](https://github.com/dmendelo/earthengine-py-notebooks/blob/master/Image/image_displacement.ipynb)
 * Miscellaneous
-  * [Band statistics (min, max, mean, std)](https://github.com/giswqs/earthengine-py-notebooks/tree/master/Image/band_stats.ipynb) | [Image statistics by band](https://github.com/giswqs/earthengine-py-notebooks/tree/master/Image/image_stats_by_band.ipynb) | [Extract value to points](https://github.com/giswqs/earthengine-py-notebooks/blob/master/Image/extract_value_to_points.ipynb) | [Rename bands](https://github.com/giswqs/earthengine-py-notebooks/tree/master/Image/rename_bands.ipynb) | [Clipping](https://github.com/giswqs/earthengine-py-notebooks/tree/master/Image/clipping.ipynb) | [Find image by path and row](https://github.com/giswqs/earthengine-py-notebooks/tree/master/Image/find_image_by_path_row.ipynb) | [Get image resolution](https://github.com/giswqs/earthengine-py-notebooks/tree/master/Image/get_image_resolution.ipynb) | [Get image extent](https://github.com/giswqs/earthengine-py-notebooks/tree/master/Image/get_image_extent.ipynb) | [Set image properties](https://github.com/giswqs/earthengine-py-notebooks/tree/master/Image/set_image_properties.ipynb) | [Select bands](https://github.com/giswqs/earthengine-py-notebooks/tree/master/Image/select_bands.ipynb) | [Convert bands to ImageCollection](https://github.com/giswqs/earthengine-py-notebooks/tree/master/Image/convert_bands_to_image_collection.ipynb) | [Reclassify](https://github.com/giswqs/earthengine-py-notebooks/tree/master/Image/reclassify.ipynb) | [Composite bands](https://github.com/giswqs/earthengine-py-notebooks/tree/master/Image/composite_bands.ipynb) | [Image smoothing](https://github.com/giswqs/earthengine-py-notebooks/tree/master/Image/image_smoothing.ipynb) | [Download image](https://github.com/giswqs/earthengine-py-notebooks/tree/master/Image/download.ipynb) | [Cell statistics](https://github.com/giswqs/earthengine-py-notebooks/tree/master/Image/cell_statistics.ipynb) | [Image patch area](https://github.com/giswqs/earthengine-py-notebooks/tree/master/Image/image_patch_area.ipynb) | [Get image id](https://github.com/giswqs/earthengine-py-notebooks/tree/master/Image/get_image_id.ipynb) | [Get band name and type](https://github.com/giswqs/earthengine-py-notebooks/tree/master/Image/get_band_name_and_type.ipynb) | [Filtering by calendar range](https://github.com/giswqs/earthengine-py-notebooks/tree/master/ImageCollection/filtering_by_calendar_range.ipynb) 
+  * [Band statistics (min, max, mean, std)](https://github.com/dmendelo/earthengine-py-notebooks/tree/master/Image/band_stats.ipynb) | [Image statistics by band](https://github.com/dmendelo/earthengine-py-notebooks/tree/master/Image/image_stats_by_band.ipynb) | [Extract value to points](https://github.com/dmendelo/earthengine-py-notebooks/blob/master/Image/extract_value_to_points.ipynb) | [Rename bands](https://github.com/dmendelo/earthengine-py-notebooks/tree/master/Image/rename_bands.ipynb) | [Clipping](https://github.com/giswqs/earthengine-py-notebooks/tree/master/Image/clipping.ipynb) | [Find image by path and row](https://github.com/dmendelo/earthengine-py-notebooks/tree/master/Image/find_image_by_path_row.ipynb) | [Get image resolution](https://github.com/dmendelo/earthengine-py-notebooks/tree/master/Image/get_image_resolution.ipynb) | [Get image extent](https://github.com/dmendelo/earthengine-py-notebooks/tree/master/Image/get_image_extent.ipynb) | [Set image properties](https://github.com/dmendelo/earthengine-py-notebooks/tree/master/Image/set_image_properties.ipynb) | [Select bands](https://github.com/dmendelo/earthengine-py-notebooks/tree/master/Image/select_bands.ipynb) | [Convert bands to ImageCollection](https://github.com/dmendelo/earthengine-py-notebooks/tree/master/Image/convert_bands_to_image_collection.ipynb) | [Reclassify](https://github.com/dmendelo/earthengine-py-notebooks/tree/master/Image/reclassify.ipynb) | [Composite bands](https://github.com/dmendelo/earthengine-py-notebooks/tree/master/Image/composite_bands.ipynb) | [Image smoothing](https://github.com/dmendelo/earthengine-py-notebooks/tree/master/Image/image_smoothing.ipynb) | [Download image](https://github.com/dmendelo/earthengine-py-notebooks/tree/master/Image/download.ipynb) | [Cell statistics](https://github.com/dmendelo/earthengine-py-notebooks/tree/master/Image/cell_statistics.ipynb) | [Image patch area](https://github.com/dmendelo/earthengine-py-notebooks/tree/master/Image/image_patch_area.ipynb) | [Get image id](https://github.com/dmendelo/earthengine-py-notebooks/tree/master/Image/get_image_id.ipynb) | [Get band name and type](https://github.com/dmendelo/earthengine-py-notebooks/tree/master/Image/get_band_name_and_type.ipynb) | [Filtering by calendar range](https://github.com/dmendelo/earthengine-py-notebooks/tree/master/ImageCollection/filtering_by_calendar_range.ipynb) 
 
-### [ImageCollection](https://github.com/giswqs/earthengine-py-notebooks/tree/master/ImageCollection)
+### [ImageCollection](https://github.com/dmendelo/earthengine-py-notebooks/tree/master/ImageCollection)
 
-* [ImageCollection Overview](https://github.com/giswqs/earthengine-py-notebooks/blob/master/ImageCollection/overview.ipynb)
-* [ImageCollection Information and Metadata](https://github.com/giswqs/earthengine-py-notebooks/blob/master/ImageCollection/metadata.ipynb)
-* [Filtering an ImageCollection](https://github.com/giswqs/earthengine-py-notebooks/blob/master/ImageCollection/filtering_collection.ipynb)
-* [Mapping over an ImageCollection](https://github.com/giswqs/earthengine-py-notebooks/blob/master/ImageCollection/map_function.ipynb)
-* [Reducing an ImageCollection](https://github.com/giswqs/earthengine-py-notebooks/blob/master/ImageCollection/reducing_collection.ipynb)
-* [Compositing and Mosaicking](https://github.com/giswqs/earthengine-py-notebooks/blob/master/ImageCollection/mosaicking.ipynb)
+* [ImageCollection Overview](https://github.com/dmendelo/earthengine-py-notebooks/blob/master/ImageCollection/overview.ipynb)
+* [ImageCollection Information and Metadata](https://github.com/dmendelo/earthengine-py-notebooks/blob/master/ImageCollection/metadata.ipynb)
+* [Filtering an ImageCollection](https://github.com/dmendelo/earthengine-py-notebooks/blob/master/ImageCollection/filtering_collection.ipynb)
+* [Mapping over an ImageCollection](https://github.com/dmendelo/earthengine-py-notebooks/blob/master/ImageCollection/map_function.ipynb)
+* [Reducing an ImageCollection](https://github.com/dmendelo/earthengine-py-notebooks/blob/master/ImageCollection/reducing_collection.ipynb)
+* [Compositing and Mosaicking](https://github.com/dmendelo/earthengine-py-notebooks/blob/master/ImageCollection/mosaicking.ipynb)
 * Miscellaneous
-  * [Get image centroid](https://github.com/giswqs/earthengine-py-notebooks/tree/master/ImageCollection/get_image_centroid.ipynb) | [Convert ImageCollection to Image](https://github.com/giswqs/earthengine-py-notebooks/tree/master/ImageCollection/convert_imagecollection_to_image.ipynb) | [Sort by cloud and date](https://github.com/giswqs/earthengine-py-notebooks/tree/master/ImageCollection/sort_by_cloud_and_date.ipynb) | [Filtering by metadata](https://github.com/giswqs/earthengine-py-notebooks/tree/master/ImageCollection/filtering_by_metadata.ipynb) | [Filtering by band names](https://github.com/giswqs/earthengine-py-notebooks/tree/master/ImageCollection/filtering_by_band_names.ipynb) | [Select image by index](https://github.com/giswqs/earthengine-py-notebooks/tree/master/ImageCollection/select_image_by_index.ipynb) | [Creating monthly imagery](https://github.com/giswqs/earthengine-py-notebooks/tree/master/ImageCollection/creating_monthly_imagery.ipynb)
+  * [Get image centroid](https://github.com/dmendelo/earthengine-py-notebooks/tree/master/ImageCollection/get_image_centroid.ipynb) | [Convert ImageCollection to Image](https://github.com/dmendelo/earthengine-py-notebooks/tree/master/ImageCollection/convert_imagecollection_to_image.ipynb) | [Sort by cloud and date](https://github.com/dmendelo/earthengine-py-notebooks/tree/master/ImageCollection/sort_by_cloud_and_date.ipynb) | [Filtering by metadata](https://github.com/dmendelo/earthengine-py-notebooks/tree/master/ImageCollection/filtering_by_metadata.ipynb) | [Filtering by band names](https://github.com/dmendelo/earthengine-py-notebooks/tree/master/ImageCollection/filtering_by_band_names.ipynb) | [Select image by index](https://github.com/dmendelo/earthengine-py-notebooks/tree/master/ImageCollection/select_image_by_index.ipynb) | [Creating monthly imagery](https://github.com/dmendelo/earthengine-py-notebooks/tree/master/ImageCollection/creating_monthly_imagery.ipynb)
 
 ### [Geometry, Feature, FeatureCollection](https://github.com/giswqs/earthengine-py-notebooks/tree/master/FeatureCollection)
 
-* [Geometry Overview](https://github.com/giswqs/earthengine-py-notebooks/blob/master/FeatureCollection/creating_feature.ipynb)
+* [Geometry Overview](https://github.com/dmendelo/earthengine-py-notebooks/blob/master/FeatureCollection/creating_feature.ipynb)
 * [Geodesic vs. Planar Geometries](https://github.com/giswqs/earthengine-py-notebooks/blob/master/Visualization/visualizing_geometries.ipynb)
 * [Geometry Visualization and Information](https://github.com/giswqs/earthengine-py-notebooks/blob/master/Visualization/visualizing_geometries.ipynb)
 * [Geometric Operations](https://github.com/giswqs/earthengine-py-notebooks/blob/master/FeatureCollection/geometric_operations.ipynb)
